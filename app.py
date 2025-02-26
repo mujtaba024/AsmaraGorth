@@ -11,7 +11,6 @@ st. write("“Succes is not final, failure is not fatal:it is the courage to con
 st.header("🔧 What's Your Challenge Today? ")
 user_input = st.text_input("Describe a challenge you're facing;")
 
-
 #condition
 if user_input:
     st.success(f"💪you're facing: {user_input}. Keep pushing forward towords your goal!🚀")
